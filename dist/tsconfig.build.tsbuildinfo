@@ -3977,7 +3977,7 @@
         "affectsGlobalScope": false
       },
       "../src/util/connection.ts": {
-        "version": "ddf7babdd328a907f62ff919e041f242a72a97799b6fd60a247919c71b4dbc45",
+        "version": "9b15482002a05d93bdc1aa638df5358d0458aa8dcf97ef5e70331aaaa3c74bb1",
         "signature": "88673416ae258b93b00024b10886dd51e5a66e12ca181c4afe03271e5fe48201",
         "affectsGlobalScope": false
       },
@@ -7833,6 +7833,9 @@
       ],
       "../src/review/review.service.ts": [
         "../node_modules/@nestjs/common/index.d.ts"
+      ],
+      "../src/util/connection.ts": [
+        "../node_modules/@types/node/process.d.ts"
       ]
     },
     "exportedModulesMap": {
@@ -11885,8 +11888,7 @@
       "../src/product/product.service.ts",
       "../src/review/review.controller.ts",
       "../src/review/review.module.ts",
-      "../src/review/review.service.ts",
-      "../src/util/connection.ts"
+      "../src/review/review.service.ts"
     ]
   },
   "version": "4.2.3"

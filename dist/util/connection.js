@@ -5,10 +5,10 @@ const mysql = require('mysql2');
 class MysqlConn {
     static getConnection() {
         return mysql.createPool({
-            host: 'localhost',
-            user: 'root',
-            password: 'root',
-            database: 'my_nestjs_project'
+            host: '	localhost',
+            user: 'coopkhpm_kasun',
+            password: '	kasun@#321#1994',
+            database: 'coopkhpm_woodparadise'
         });
     }
 }
